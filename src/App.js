@@ -1,5 +1,10 @@
 import React from 'react';
-import { AddTransaction, Balance, Header, IncomeExpenses, Transaction, TransactionList } from './components/index.js';
+import { Header } from './components/Header';
+import { Balance } from './components/Balance';
+import { IncomeExpenses } from './components/IncomeExpenses';
+import { TransactionList } from './components/TransactionList';
+import { AddTransaction } from './components/AddTransaction';
+//import { AddTransaction, Balance, Header, IncomeExpenses, Transaction, TransactionList } from './components/index.js';
 
 //import logo from './logo.svg';
 import './App.css';
@@ -7,13 +12,13 @@ import './App.css';
 function App() {
   return (
     <div>
-      Hello World
       <Header />
-      <IncomeExpenses />
+      <div className="container">
+        <Balance />
+        <IncomeExpenses />
+      </div>
       <TransactionList />
-      <Balance />
       <AddTransaction />
-      <Transaction />
     </div>
   );
 }
