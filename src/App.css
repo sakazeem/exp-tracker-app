@@ -28,6 +28,13 @@ h1 {
   letter-spacing: 1px;
   margin: 0;
 }
+.header h2 {
+  margin-bottom: 0;
+}
+.header h3 {
+  margin-top: 0;
+  font-weight: 300;
+}
 
 h3 {
   border-bottom: 1px solid #bbb;
