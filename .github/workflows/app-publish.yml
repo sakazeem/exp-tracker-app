@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: React COVID 19 App deploy to Surge
+name: React Expense Tracker App deploy to Surge
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
